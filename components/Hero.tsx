@@ -16,11 +16,10 @@ const Hero = () => {
           height={50}
           className='absolute left-[-5px] top-[-30px] w-10 lg:w-[50px]'
         />
-        <h1 className='bold-52 lg:bold-88'>Travel Camp Area</h1>
+        <h1 className='bold-52 lg:bold-88'>Urban Jungle Oasis Area</h1>
         <p className='reguler-16 mt-6 text-gray-30 xl:max-w-[520px]'>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam accusamus quos, similique magni alias
-          dicta nihil quibusdam nobis, quidem placeat eligendi blanditiis velit ad ipsum vero iste voluptate hic
-          officia!
+          We want to be on each of your journeys seeking the satisfaction of seeing the incorruptible beauty of nature.
+          We can help you on an adventure around the world in just one app
         </p>
 
         <div className='my-11 flex flex-wrap gap-5'>
@@ -33,7 +32,7 @@ const Hero = () => {
           </div>
 
           <p className='bold-16 lg:bold-20 text-blue-70'>
-            198k
+            173k
             <span className='regular-16 lg:regular-20 ml-1'>Excellent Reviews</span>
           </p>
         </div>
@@ -51,17 +50,17 @@ const Hero = () => {
               <p className='reguler-16 text-gray-20'>Location</p>
               <Image src='/close.svg' alt='close' width={24} height={24} />
             </div>
-            <p className='bold-20 text-white'>Joko Samudro</p>
+            <p className='bold-20 text-white'>Maplewood Heights</p>
           </div>
 
           <div className='flexBetween'>
             <div className='flex flex-col'>
               <p className='regular-16 block text-gray-20'>Distance</p>
-              <p className='bold-20 text-white'>173.28 mi</p>
+              <p className='bold-20 text-white'>159.42 mi</p>
             </div>
             <div className='flex flex-col'>
               <p className='regular-16 block text-gray-20'>Elevation</p>
-              <p className='bold-20 text-white'>2.040 km</p>
+              <p className='bold-20 text-white'>3.208 km</p>
             </div>
           </div>
         </div>

@@ -48,15 +48,15 @@ const Camp = () => {
       <div className='hide-scrollbar flex h-[340px] w-full items-start justify-start gap-8 overflow-x-auto lg:h-[400px] xl:h-[640px]'>
         <CampSite
           backgroundImage='bg-bg-img-1'
-          title='Putuk Truno Camp'
-          subtitle='Prigen, Pasuruan'
-          peopleJoined='50+ Joined'
+          title='Meadowbrook Springs'
+          subtitle='Springfield, Illinois'
+          peopleJoined='150+ Joined'
         />
         <CampSite
           backgroundImage='bg-bg-img-2'
-          title='Mountain View Camp'
-          subtitle='Somewhere in the Wilderness'
-          peopleJoined='20+ Joined'
+          title='Pinecrest Falls'
+          subtitle='Charleston, South Carolina'
+          peopleJoined='70+ Joined'
         />
       </div>
 
@@ -66,8 +66,8 @@ const Camp = () => {
             <strong>Feeling Lost</strong> And Not Knowing The Way?
           </h2>
           <p className='regular-14 xl:regular-16 mt-5 text-white'>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum nobis at fuga illum, vero vitae doloribus
-            illo atque optio eos odio qui, nostrum totam, facere saepe unde ut eius maxime.
+            Starting from the anxiety of the climbers when visiting a new climbing location, the possibility of getting
+            lost is very large. That's why we are here for those of you who want to start an adventure
           </p>
           <Image src='/quote.svg' alt='camp-2' width={186} height={219} className='camp-quote' />
         </div>
